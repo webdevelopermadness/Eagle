@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    background: url('img/images/main.jpg') no-repeat;
+    background-size: cover;
+    height: 638px;
+    color: whitesmoke;
+}
+
+#home > nav > h1 {
+    padding: 38px 0 38px 170px;
+    font-family: 'Asap', sans-serif;
+}
+
+#home > #h2 {
+    padding: 70px 0 75px 170px;
+    font-size: 20px;
+    font-family: 'Asap', sans-serif;
+}
+
+#home > #h2 > strong {
+    font-weight: bolder;
+}
+
+#home > nav > h1 > span {
+    color: green;
+}
+
+#home > .groupItem > .group {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    height: 225px;
+    margin: 70px 0;
+    font-family: 'Asap', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+
+}
+
+#home > .groupItem {
+    text-align: center;
+
+
+}
+
+#home > .groupItem > div > span i {
+    margin: 30px 0;
+    border: solid 2px #fff;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#home > .groupItem > .group:hover {
+    background-color: #2ec06c;
+}
+
+#aboutMe {
+    height: 580px;
+    background-color: whitesmoke;
+}
+
+#aboutMe > .box1 > header {
+    padding: 100px 0 30px 170px;
+}
+
+#aboutMe > .box1 > p {
+    padding: 0 0 60px 170px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+#aboutMe > .box1 > #my {
+    width: 200px;
+    height: 60px;
+    border: solid 1px green;
+    background-color: whitesmoke;
+    margin-left: 170px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+#aboutMe > .box1 > #hire {
+    width: 200px;
+    height: 60px;
+    background-color: green;
+    border-radius: 50px;
+    border: none;
+    border: none;
+    color: white;
+}
+
+.container > .left {
+    width: 660px;
+    height: 586px;
+
+}
+
+.container > .right {
+    width: 660px;
+    height: 586px;
+}
+
+.container > .box1 {
+    float: left;
+
+}
+
+.clearfix:: after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+#my-services {
+    background-color: white;
+    height: 500px;
+    margin: 0 170px;
+}
+
+#my-services > .heading {
+    text-align: center;
+}
+
+#my-services > .heading > h2 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
+
+#my-services > .heading > h2 strong {
+    font-weight: bold;
+
+}
+
+
+#my-services > .heading > p {
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+}
+
+.box2 {
+    margin-bottom: 50px;
+}
+
+
+#my-services > .bigBox {}
+
+#my-services > .bigBox::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#my-services > .bigBox > .leftSection {
+
+    width: 50%;
+}
+
+#my-services > .bigBox > .rightSection {
+    width: 50%;
+}
+
+#my-services > .bigBox > .content {
+    float: left;
+}
+
+.hfour {
+    margin-bottom: 10px;
+}
+
+.hfour > i {
+    color: green;
+    margin-right: 30px;
+}
+
+.box2 > p {
+    padding-left: 58px;
+    padding-bottom: 60px;
+    text-align: justify;
+    padding-right: 120px;
+}
+
+#clients {
+    background: url('img/images/images/images/images/images/hero8.png') no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+
+.main {
+    height: 350px;
+}
+
+#clients > .main > .list {
+    text-align: center;
+
+}
+
+#clients > .main > .list > ul > i {
+    padding: 20px 90px;
+    text-align: center;
+
+
+}
+
+#clients > .main > .paragraph {
+    padding: 80px 400px;
+    text-align: center;
+}
+
+#clients > .main > .list > ul {
+    padding: 0;
+    list-style: none;
+    display: inline;
+}
+
+#work {
+    height: 1068px;
+    background-color: snow;
+
+}
+
+#work > .head {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 35px;
+    font-size: 24px;
+}
+
+#work > .head > h > strong {
+    color: green;
+}
+
+#work > .paragraphs {
+    text-align: center;
+    font-size: 14px;
+}
+
+#work > .container {
+    width: 950px;
+    height: 666px;
+    margin: 100px auto 62px;
+
+}
+
+#work > .container > .box {
+    width: 25%;
+    height: 25%;
+    margin-top: 62px;
+    text-align: center;
+    margin-left: 30px;
+
+
+}
+
+#work > .container > #box1 {
+
+    padding: 20px;
+}
+
+#work > .container > .box > footer {
+    background-color: beige;
+    padding: 20px;
+}
+
+#work > .container > #box2 {
+    padding: 20px;
+
+}
+
+#work > .container > #box3 {
+
+    padding: 20px;
+
+}
+
+#work > .container > #box4 {
+
+    padding: 20px;
+}
+
+#work > .container > #box5 {
+    padding: 20px;
+
+}
+
+#work > .container > #box6 {
+    padding: 20px;
+
+
+}
+
+#work > .container > .box {
+    float: left;
+}
+
+#work > .container {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#feedBack {
+    background: url('img/images/tokyo.jpg');
+    background-size: cover;
+    height: 300px;
+}
+
+#feedBack > .paragraph1 {
+    text-align: center;
+    padding: 110px 0 30px 0;
+    font-size: 14px;
+    color: white;
+
+}
+
+#feedBack > .h {
+    text-align: center;
+    padding-bottom: 110px;
+    color: white;
+    font-size: 18px;
+}
+
+#feedBack > .h > h > span {
+    color: green;
+}
+
+#hireMe {
+    height: 635px;
+}
+
+#hireMe > .bigHead {
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+
+#hireMe > .para {
+    text-align: center;
+    padding-bottom: 57px;
+}
+
+#hireMe > .container {
+    width: 950px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#hireMe > .container > .mainButton {
+    width: 30%;
+    height: 98%;
+}
+
+#hireMe > .container > .mainButton > .box1 > button {
+    width: 120px;
+    height: 117px;
+
+}
+
+#hireMe > .container > .mainButton > .box1 > button {
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#hireMe > .container > .mainButton > .box1 > button:hover {
+    background-color: deeppink;
+}
+
+#hireMe > .container > .mainButton > .button1 > button > i {
+    color: blue;
+}
+
+#hireMe > .container > .mainButton > .button3 > button > i {
+    color: darkslategrey;
+}
+
+#hireMe > .container > .mainButton > .button3 > button {
+    border: solid 2px darkslategrey;
+}
+
+#hireMe > .container > .mainButton > .button4 > button > i {
+    color: black;
+}
+
+#hireMe > .container > .mainButton > .button4 > button {
+    border: solid 2px white;
+}
+
+#hireMe > .container > .mainButton > .button2 > button > i {
+    color: deepskyblue;
+}
+
+#hireMe > .container > .mainButton > .button2 > button {
+    border: solid 2px deepskyblue;
+}
+
+#hireMe > .container > .mainButton > .button1 > button {
+    border: solid 2px blue;
+}
+
+#hireMe > .container > .mainForm {
+    width: 68%;
+    height: 98%;
+}
+
+#hireMe > .container > .box {
+    float: left;
+}
+
+#hireMe > .container {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#hireMe > .container > .mainButton > .box1 {
+    float: left;
+}
+
+#hireMe > .container > .mainForm > form > label > textarea {
+    width: 600px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+
+#hireMe > .container > .mainForm > form > label > input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 125px;
+    border-radius: 5px;
+}
+
+#hireMe > .container > .mainForm > form > label > input[type="text"]:hover {
+    border-color: green;
+    cursor: pointer;
+}
+
+#footer {
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 170px;
+    background-color: #eeeeee;
+}
+
+#footer > p > strong {
+    color: green;
+}
